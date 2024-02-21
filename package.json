@@ -2,6 +2,7 @@
   "name": "inm420-Rest API",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://emmaeunkyocho.github.io/inm420-rest-api",
   "scripts": {
     "start": "lite-server --baseDir=\"public\""
   },
