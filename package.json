@@ -1,0 +1,14 @@
+{
+  "name": "inm420-Rest API",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "Emma EunKyo Cho",
+  "license": "private",
+  "private": true,
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

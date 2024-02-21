@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Astronomy Picture of the Day</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+    
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Astronomy Picture of the Day</h1>
+    </header>
+
+    <main>
+        <div id="apod-content">
+            <div id="apod-head">
+                <h2 id="apod-title"></h2>
+                <input type="date" id="date-input">
+            </div>
+            <!-- <p id="apod-date"></p> -->
+            <div id="apod-image" class="apod-image" >
+                <div id="zoom-icon" class="zoom-icon">
+                    <i class="fa-solid fa-magnifying-glass fa-2xl" style="color: #FFFFFF;"></i>
+                </div>
+            </div>
+            <p id="apod-explanation"></p>
+        </div>
+    </main>
+
+    <script src="/assets/js/main.js"></script>
+
+</body>
+</html>
